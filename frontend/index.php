@@ -1,0 +1,1 @@
+<?php header("Location: http://appointment.weexcel.ca/frontend/web"); ?>

@@ -1,0 +1,936 @@
+[20-May-2020 15:58:34 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=e8375872b36d0ebe6d3b6a63521d365cbca9a91585825c1f4313baac4a7415f3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22MQgy_O9YV18vRr-g2OH_tJf0BXUrQ-EV%22%2C2592000%5D%22%3B%7D; advanced-frontend=mbbrigsa3pjci0p6gmm39vdbp4',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.4.0',
+    'HTTP_X_FORWARDED_FOR' => '106.204.230.44',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'XsWL6lSeRuWLGxEbuUQEuwAAAkk',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '106.204.230.44',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '53508',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590004714.8864209651947021484375,
+    'REQUEST_TIME' => 1590004714,
+]
+[20-May-2020 16:05:42 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=e8375872b36d0ebe6d3b6a63521d365cbca9a91585825c1f4313baac4a7415f3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22MQgy_O9YV18vRr-g2OH_tJf0BXUrQ-EV%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.4.0',
+    'HTTP_X_FORWARDED_FOR' => '106.204.230.44',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'XsWNlrW9hX2v58VoTM5VxQAAAFU',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '106.204.230.44',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '48928',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590005142.906344890594482421875,
+    'REQUEST_TIME' => 1590005142,
+]
+[20-May-2020 16:07:37 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=e8375872b36d0ebe6d3b6a63521d365cbca9a91585825c1f4313baac4a7415f3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22MQgy_O9YV18vRr-g2OH_tJf0BXUrQ-EV%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.4.0',
+    'HTTP_X_FORWARDED_FOR' => '106.204.230.44',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'XsWOCde-Ce@S5WwGRkPCJQAAAwM',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '106.204.230.44',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '33806',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590005257.3538360595703125,
+    'REQUEST_TIME' => 1590005257,
+]
+[21-May-2020 13:17:09 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,fr;q=0.8',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa3lFG5HiF8-o@vzBxUigAAARU',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '33092',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590081428.5455830097198486328125,
+    'REQUEST_TIME' => 1590081428,
+]
+[21-May-2020 13:17:34 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'WhatsApp/2.2021.2 N',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa3rvlofvH-kkCOBRs1BQAAANY',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '36140',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590081454.6725749969482421875,
+    'REQUEST_TIME' => 1590081454,
+]
+[21-May-2020 13:18:56 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=e8375872b36d0ebe6d3b6a63521d365cbca9a91585825c1f4313baac4a7415f3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22MQgy_O9YV18vRr-g2OH_tJf0BXUrQ-EV%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.3.0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa4AP9y5HKRQXvAcB4BTgAAAFE',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '45644',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590081536.1878321170806884765625,
+    'REQUEST_TIME' => 1590081536,
+]
+[21-May-2020 13:20:38 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=e8375872b36d0ebe6d3b6a63521d365cbca9a91585825c1f4313baac4a7415f3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22MQgy_O9YV18vRr-g2OH_tJf0BXUrQ-EV%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.3.0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa4ZvlofvH-kkCOBRs8PQAAANg',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '56940',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590081638.82100200653076171875,
+    'REQUEST_TIME' => 1590081638,
+]
+[21-May-2020 13:29:31 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,hi;q=0.8',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_X_FORWARDED_FOR' => '157.39.26.169',
+    'HTTP_POSTMAN_TOKEN' => 'de94a246-262e-db4a-95d8-7773b1941084',
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'cors',
+    'HTTP_SEC_FETCH_DEST' => 'empty',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa6emuBhWV9NNJ@ExBpFQAAAJE',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '157.39.26.169',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '36746',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082170.93807506561279296875,
+    'REQUEST_TIME' => 1590082170,
+]
+[21-May-2020 13:30:00 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,hi;q=0.8',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_X_FORWARDED_FOR' => '157.39.26.169',
+    'HTTP_POSTMAN_TOKEN' => '7c7f9379-e4a2-4bf3-ef01-0fa4c5f1e27d',
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'cors',
+    'HTTP_SEC_FETCH_DEST' => 'empty',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa6l3SwoojtKPyVEfUDygAAAAw',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '157.39.26.169',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '40316',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082199.94110393524169921875,
+    'REQUEST_TIME' => 1590082199,
+]
+[21-May-2020 13:33:57 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=e8375872b36d0ebe6d3b6a63521d365cbca9a91585825c1f4313baac4a7415f3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22MQgy_O9YV18vRr-g2OH_tJf0BXUrQ-EV%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.3.0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa7hWuBhWV9NNJ@ExBuAQAAAIo',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '37952',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082437.7482750415802001953125,
+    'REQUEST_TIME' => 1590082437,
+]
+[21-May-2020 13:33:58 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,fr;q=0.8',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa7hi3P1mT4Vf9e-afubgAAAAg',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '38046',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082438.164031982421875,
+    'REQUEST_TIME' => 1590082438,
+]
+[21-May-2020 13:35:25 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=c2526323842789759faabdb2e91643741ad988c8572b65beb1535c02e94175efa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B14%2C%22mlBrTi6H71LX89fLO4vJkF_JpC9iof0m%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_X_FORWARDED_FOR' => '114.31.141.207',
+    'HTTP_POSTMAN_TOKEN' => '3df296d4-eab7-7af8-64ac-e6ff313a156a',
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'cors',
+    'HTTP_SEC_FETCH_DEST' => 'empty',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa73S3P1mT4Vf9e-af3ogAAAAo',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '114.31.141.207',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '48642',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'POST',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082525.026032924652099609375,
+    'REQUEST_TIME' => 1590082525,
+]
+[21-May-2020 13:37:12 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_identity-frontend=e8375872b36d0ebe6d3b6a63521d365cbca9a91585825c1f4313baac4a7415f3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B8%2C%22MQgy_O9YV18vRr-g2OH_tJf0BXUrQ-EV%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.3.0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa8Ry3P1mT4Vf9e-acCtAAAAAc',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '60928',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082631.9622809886932373046875,
+    'REQUEST_TIME' => 1590082631,
+]
+[21-May-2020 13:39:57 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_csrf-frontend=e6667a4cae65b0a599fc09caeef3da2b938d17a1abe0b56f5d4ea0a85b5d7b41a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22bhsnUgxlmuh8o-2TcieWUtkIF_e63O-Q%22%3B%7D; _identity-frontend=1d4e01eb53ebe4386f1551d3f64a1ae64df91aa4bf1b261298becdec6a5fc87da%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B11%2C%22iSZ5TVD7_L1fr2FolFO87CWVM6LURWoZ%22%2C2592000%5D%22%3B%7D; advanced-frontend=2nkk7ukhth5plm7e453b3kej93',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.3.0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa87e-SxQP0lj@aG1EVdwAAAEE',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '52764',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082797.0574359893798828125,
+    'REQUEST_TIME' => 1590082797,
+]
+[21-May-2020 13:41:47 America/New_York] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 220. in /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/thelqpml/spin.devbhoomirishta.com/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us',
+    'CONTENT_TYPE' => 'application/json',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_csrf-frontend=84b7a52371573fafce0e6c756a949aa1754a7fbebbbded083ed2e287e8b31ea5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wxX6fo7hMX3k4AP3TFA8nq8ksuPvgJby%22%3B%7D; _identity-frontend=1d4e01eb53ebe4386f1551d3f64a1ae64df91aa4bf1b261298becdec6a5fc87da%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B11%2C%22iSZ5TVD7_L1fr2FolFO87CWVM6LURWoZ%22%2C2592000%5D%22%3B%7D; advanced-frontend=9g3fa5mqb349dgegtgq5acfvp6',
+    'HTTP_HOST' => 'spin.devbhoomirishta.com',
+    'HTTP_USER_AGENT' => 'SpinMeAround/1 CFNetwork/1121.2.1 Darwin/19.3.0',
+    'HTTP_X_FORWARDED_FOR' => '223.225.33.159',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_HTTPS' => 'on',
+    'HTTPS' => 'on',
+    'SERVER_PORT' => '443',
+    'UNIQUE_ID' => 'Xsa9W5TY3y1D2-Ce3SDCMwAAABc',
+    'SCRIPT_URL' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_URI' => 'https://spin.devbhoomirishta.com/frontend/web/index.php/api/item/get-item',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'spin.devbhoomirishta.com',
+    'SERVER_ADDR' => '198.54.114.157',
+    'REMOTE_ADDR' => '223.225.33.159',
+    'DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/thelqpml/spin.devbhoomirishta.com',
+    'SERVER_ADMIN' => 'webmaster@spin.devbhoomirishta.com',
+    'SCRIPT_FILENAME' => '/home/thelqpml/spin.devbhoomirishta.com/frontend/web/index.php',
+    'REMOTE_PORT' => '38812',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/frontend/web/index.php/api/item/get-item',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/api/item/get-item',
+    'PATH_TRANSLATED' => '/home/thelqpml/spin.devbhoomirishta.com/api/item/get-item',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1590082907.227570056915283203125,
+    'REQUEST_TIME' => 1590082907,
+]
+[22-May-2020 13:14:12 America/New_York] PHP Fatal error:  Cannot redeclare app\modules\api\controllers\ItemController::actionAddfaviourte() in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 325
+[06-Jun-2020 07:17:12 America/New_York] PHP Fatal error:  Cannot redeclare app\modules\api\controllers\ItemController::actionExchangeRequest() in /home/thelqpml/spin.devbhoomirishta.com/frontend/modules/api/controllers/ItemController.php on line 641

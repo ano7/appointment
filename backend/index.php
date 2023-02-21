@@ -1,0 +1,1 @@
+<?php header("Location: http://localhost/projects/appointment/backend/web"); ?>
